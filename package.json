@@ -1,12 +1,34 @@
 {
   "name": "cursor-watch",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A native macOS app that monitors screen for Cursor editor status",
+  "main": "N/A - Swift macOS App",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "./run-dev.sh",
+    "build": "./build.sh",
+    "open": "open CursorWatch.xcodeproj",
+    "swift-install": "./install-swift.sh",
+    "swift-build": "./swift-build.sh",
+    "swift-run": "./swift-run.sh",
+    "start": "./swift-run.sh"
   },
-  "keywords": [],
+  "keywords": [
+    "macos",
+    "swift",
+    "screen-monitoring",
+    "ocr",
+    "cursor-editor",
+    "text-detection"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "engines": {
+    "xcode": ">=15.0",
+    "macos": ">=13.0",
+    "swift": ">=5.9"
+  }
 }
